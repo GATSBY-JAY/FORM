@@ -1,0 +1,95 @@
+.total{
+    margin: 10px;
+}
+.header{
+    display:grid;
+    grid-template-columns: 10% 30% 60%;
+    background-color: teal;
+}
+img{
+    width: 10%;
+}
+.logo img{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    display: inline;
+}
+.icons ul li{
+    margin-left: 40px;
+}
+.icons ul li a img{
+    width: 5%;
+}
+.links ul li{
+    margin-left: 100px;
+    color: white;
+}
+.icons{
+    text-align: center;
+}
+.links ul li a{
+    color : white;
+    font-size: 20px;
+}
+.marquees{
+    color: hotpink;
+    font-style: italic;
+    margin-top: 20px;
+}
+.banner{
+    background-image: url(/images/unnamed.jpg);
+    height: 50vh;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    color: blue;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.content_child{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.product{
+    border: 2px solid salmon;
+    margin: 50px 20px;
+    padding: 150px 120px;
+    background-image: url(/images/IMG_1144.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 2px 10px 5px rgb(197, 197, 196);
+}
+.product:hover{
+    box-shadow: 5px 2px 10px 5px goldenrod;
+    cursor: pointer;
+}
+.footer_child{
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20%;
+}
+.footer_link ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer_social ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: hotpink;
+    color: white;
+}
+.copyright{
+    text-align: center;
+}

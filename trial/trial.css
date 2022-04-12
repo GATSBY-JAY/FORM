@@ -1,0 +1,56 @@
+.total{
+    margin: 10px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 10% 30% 60%;
+    background-color: black;
+}
+.logo img{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    display: inline;
+}
+.icons ul li{
+    margin-left: 40px;
+}
+.icons ul li a img{
+    width: 5%;
+}
+.icons ul il{
+    margin-left: 100px;
+    color: black;
+}
+.icons{
+    text-align: center;
+}
+.links ul li a{
+    color: white;
+    font-size: 20px;
+}
+.links ul li{
+    margin-left: 100px;
+    color: white;
+}
+.marquees{
+    color: hotpink;
+    font-style: italic;
+    margin-top: 10px;
+}
+.banner{
+    background-image: url(/images/IMG_1144.jpg);
+    height: 50vh;
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
+}
